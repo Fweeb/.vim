@@ -72,6 +72,7 @@ syntax match  mkdListCode   /^\s*\n\(^\(\s\{8}\|\t{2}\).*\n\)\+/
 syntax match  mkdLineBreak /  \+$/
 syntax region mkdCode       start=/\\\@<!`/     end=/\\\@<!`/
 syntax region mkdCode       start=/\s*``[^`]*/  end=/[^`]*``\s*/
+syn region mkdCode start=/^\s*```\s*[0-9A-Za-z_-]*\s*$/ end=/^\s*```\s*$/
 syntax region mkdBlockquote start=/^\s*>/       end=/$/           contains=mkdLineBreak,mkdLineContinue,@Spell
 syntax region mkdCode       start="<pre[^>]*>"  end="</pre>"
 syntax region mkdCode       start="<code[^>]*>" end="</code>"
