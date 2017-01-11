@@ -9,6 +9,7 @@ Plug 'vim-scripts/fountain.vim'
 call plug#end()
 
 syntax on
+set encoding=utf-8
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -16,6 +17,7 @@ set number
 set colorcolumn=80
 set hidden
 set wrap lbr
+set scrolloff=999
 colorscheme slate
 
 if has("gui_running")
