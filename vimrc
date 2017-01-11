@@ -1,6 +1,7 @@
 " vim-plug section
 
 call plug#begin('~/.vim/plugged')
+Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -30,3 +31,4 @@ set t_Co=256
 set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline_theme='ubaryd'
+let g:vim_markdown_folding_disabled = 1
