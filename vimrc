@@ -7,6 +7,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'reedes/vim-pencil'
 Plug 'vim-scripts/fountain.vim'
+Plug 'cespare/vim-toml'
 call plug#end()
 
 syntax on
