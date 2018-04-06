@@ -23,7 +23,7 @@ set scrolloff=999
 colorscheme slate
 
 if has("gui_running")
-  set guifont=Terminess\ Powerline\ 12
+  set guifont=xos4\ Terminess\ Powerline\ 12
   set columns=100
   set lines=38
 endif
