@@ -8,6 +8,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'reedes/vim-pencil'
 Plug 'vim-scripts/fountain.vim'
 Plug 'cespare/vim-toml'
+Plug 'Glench/Vim-Jinja2-Syntax'
 call plug#end()
 
 syntax on
